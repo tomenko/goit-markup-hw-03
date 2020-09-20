@@ -76,6 +76,7 @@ img {
 /*===============header===============*/
 .header {
   padding: 25px 0;
+  border: 1px solid #ececec;
 }
 
 .header .container {
@@ -232,6 +233,7 @@ img {
 
 /*===============what-are-we-doing===============*/
 .section-doing {
+  padding-bottom: 82px;
 }
 
 .section-doing-title {
@@ -252,7 +254,7 @@ img {
 
 /*===============our-team===============*/
 .section-team {
-  padding-top: 94px;
+  padding: 94px 0;
   background-color: #f5f4fa;
 }
 
@@ -273,6 +275,14 @@ img {
 
 .team-list-content {
   padding: 30px 0;
+}
+
+.team-list-item {
+  width: 270px;
+  height: 368px;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-title {
@@ -352,8 +362,7 @@ img {
 /*===============portfolio===============*/
 
 .section-portfolio {
-  padding-top: 94px;
-  margin-bottom: 114px;
+  padding: 94px 0;
 }
 
 .portfolio-button {
@@ -396,11 +405,16 @@ img {
 }
 
 .portfolio-list-item {
+  width: 370px;
+  height: 404px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
   margin: 15px;
 }
 
 .portfolio-list-content {
-  padding-top: 20px;
+  padding: 20px 20px;
 }
 
 .portfolio-title {
